@@ -1,0 +1,52 @@
+
+
+
+div:hover {
+  background-color: yellow;
+  width: 300px;
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+p::first-line
+{
+  background-color: blue;
+  width: 300px;
+  border: 10px solid red;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+h1::first-letter
+{
+  color: blue;
+ 
+
+}
+
+h2::after{
+
+content:url(file:///home/sem6b12/Downloads/index.png);
+
+
+
+}
+::selection
+{
+color:red;
+backgroung-color:yellow;
+}
+
+
+
+img:hover
+{
+opacity:0.1;
+}
+div.first
+{
+background-color:rgba(76,175,80,0.1);
+padding:10px;
+border:black;
+}
